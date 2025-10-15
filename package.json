@@ -1,0 +1,23 @@
+{
+  "name": "simple-todo",
+  "version": "1.0.0",
+  "description": "This repository contains a simple, yet foundational, smart contract written in Solidity that implements a fully functional To-Do List application on the blockchain.\r features of this contract -\r      1.admin adds user, \r      2.users add tasks, \r      3.user marks tasks after completion, \r      4.user removes tasks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "chai": "^4.5.0",
+    "ethers": "^6.15.0",
+    "hardhat": "^2.26.3",
+    "mocha": "^11.7.4"
+  },
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
+}
